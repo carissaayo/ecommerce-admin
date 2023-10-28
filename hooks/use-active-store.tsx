@@ -1,4 +1,4 @@
-import { create } from 'zustand';
+import { create } from "zustand";
 
 interface useActiveStoreInterface {
   id?: string;
@@ -11,3 +11,5 @@ export const useActiveStore = create<useActiveStoreInterface>((set) => ({
   set: (id: string) => set({ id }),
   reset: () => set({ id: undefined }),
 }));
+
+const loe = "ereii";
