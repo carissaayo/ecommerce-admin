@@ -61,7 +61,6 @@ const ImageUpload: React.FC<ImageUploadProps> = ({
           const onClick = () => {
             open();
           };
-
           return (
             <Button
               type="button"
@@ -78,5 +77,4 @@ const ImageUpload: React.FC<ImageUploadProps> = ({
     </div>
   );
 };
-
 export default ImageUpload;
